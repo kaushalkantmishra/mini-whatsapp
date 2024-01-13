@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+
+h1,h3 {
+    text-align: center;
+    color: #25d366; /* WhatsApp green color */
+    background-color:#333;
+    margin-top: 0%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.home, .chat {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.home{
+    background-color: #ccc;
+}
+
+p {
+    line-height: 1.6;
+    color: #555;
+}
+
+button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #25d366; /* WhatsApp green color */
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #128C7E; /* Darker shade on hover */
+}
+
+.chat {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 15px;
+}
+
+.msg {
+    margin: 10px 0;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    margin-top: 5px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #ddd;
+}
+
+/* Optional: Style for date and time */
+.chat p:last-child {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #fff;
+}
+.chat p{
+    color: #fff;
+}
+.msg p {
+    color: #000;
+    background-color: #e0e0e0; /* Choose your preferred background color */
+    padding: 8px;
+    border-radius: 5px;
+}
+.new {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+}
